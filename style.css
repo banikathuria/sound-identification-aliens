@@ -1,0 +1,25 @@
+body{
+    background-color: lightpink;
+}
+#heading{
+    font-size: 300%;
+    width: 100%;
+    margin-top: 0% ;
+    color: crimson;
+    font-weight: bolder;
+    text-shadow: 10px 10px 5px cyan;}
+#start{
+ width: 100px;
+ border-color: black;
+ font-weight: bold;
+ box-shadow: 5px 5px 5px black;
+}
+#footer1{
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    font-size:x-large;
+    text-shadow:5px 5px 5px darkorchid;
+}
