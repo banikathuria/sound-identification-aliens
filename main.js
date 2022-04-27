@@ -11,7 +11,7 @@ function start(){
  else 
   {console.log(result)
 document.getElementById("sound").innerHTML= result[0].label
-document.getElementById("accurate").innerHTML= Math.floor(result[0].confidence*100)+"%"
+document.getElementById("accurate").innerHTML= ((result[0].confidence*100).toFixed(1))+"%"
 if(result[0].label=="Bell"){
   document.getElementById("alien1").src="aliens-01.gif"
   document.getElementById("alien2").src="aliens-02.png"
